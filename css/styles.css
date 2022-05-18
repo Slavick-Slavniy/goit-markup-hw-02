@@ -1,4 +1,47 @@
-.logo {
+.page {
+    background-color: #E5E5E5;
+    color:#757575;
+
+}
+/* .logo {
+
+} */
+.logo-web {
+    color:#2196F3 ;
+}
+.logo-studio {
+    color:#000000 ;
+}
+ul {
+    list-style: none;
+}
+.site-nav .link {
+    color:#212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#2196F3;
+}
+.section-title {
+    color:#212121 ;
+}
+
+
+
+
+
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* дополнительный вторичный текст #FFFFFF */
+/* цвет акцента #2196F3 */
+/* цвет фона хедера #FFFFFF */
+/* первичный цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA */
+/* дополнительный вторичный цвет фона #2F303A */
+
+
+
+/* .logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -13,4 +56,4 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-}
+} */
