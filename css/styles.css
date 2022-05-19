@@ -1,34 +1,29 @@
 .page {
-    background-color: #E5E5E5;
-    color:#757575;
-
+  background-color: #e5e5e5;
+  color: #757575;
 }
 /* .logo {
 
 } */
 .logo-web {
-    color:#2196F3 ;
+  color: #2196f3;
 }
 .logo-studio {
-    color:#000000 ;
+  color: #000000;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 .site-nav .link {
-    color:#212121;
+  color: #212121;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:#2196F3;
+  color: #2196f3;
 }
 .section-title {
-    color:#212121 ;
+  color: #212121;
 }
-
-
-
-
 
 /* цвет основного текста #757575 */
 /* вторичный цвет текста #212121 */
@@ -38,8 +33,6 @@ ul {
 /* первичный цвет фона #E5E5E5 */
 /* вторичный цвет фона #F5F4FA */
 /* дополнительный вторичный цвет фона #2F303A */
-
-
 
 /* .logo {
     font-family: 'Raleway';
