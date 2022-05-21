@@ -13,16 +13,31 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primery-background-color: #e5e5e5;
-  --button-text-color: #ffffff;
+  --secondary-text-color: #ffffff;
 }
 body {
   background-color: var(--primery-background-color);
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 ul {
   list-style: none;
 }
+
+/* Logo */
+.logo {
+}
+.logo .web {
+  color: var(--accent-color);
+}
+.logo .studio {
+  color: var(--title-text-color);
+}
+.logo .primery-studio {
+  color: var(--secondary-text-color);
+}
+
+/* Navigation webstudio*/
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -33,6 +48,8 @@ ul {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
+/* Authentication */
 .auth-nav .link {
   color: var(--title-text-color);
 }
@@ -40,10 +57,34 @@ ul {
 .auth-nav .link:focus {
   color: var(--accent-color);
 }
-.button {
-  color: var(--button-text-color);
+
+/* Filter buttton portfolio*/
+.site-nav .button-filter:hover,
+.site-nav .button-filter:focus {
+  color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
+
+/* Address footer */
+.auth-nav .address {
+  color: var(--secondary-text-color);
+}
+.auth-nav .link-address {
+  color: var(--secondary-text-color);
+}
+.auth-nav .link-address:hover,
+.auth-nav .link-address:focus {
+  color: var(--accent-color);
+}
+/* Button Webstudio */
+.section .button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+.section .button:hover {
+  color: var(--title-text-color);
+}
+/* Title */
 .section-title {
   color: var(--title-text-color);
 }
