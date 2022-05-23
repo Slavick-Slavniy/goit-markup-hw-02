@@ -16,13 +16,16 @@
   --secondary-text-color: #ffffff;
 }
 body {
-  background-color: var(--primery-background-color);
-  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--primery-background-color);
 }
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 /* Heder*/
 .logo {
@@ -66,6 +69,8 @@ ul {
   color: var(--accent-color);
   /* ---------------------------------------------------------------- */
 }
+/* W-E-B-S-T-U-D-I-O */
+/* Section hero */
 .section-title-hero {
   font-weight: 900;
   font-size: 44px;
@@ -79,10 +84,12 @@ ul {
   font-family: inherit;
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
+  cursor: pointer;
 }
 .section .button-hero:hover {
   color: var(--title-text-color);
 }
+/* Section features  */
 .section .section-title-features {
   font-weight: 700;
   font-size: 14px;
@@ -91,7 +98,6 @@ ul {
   color: var(--title-text-color);
 }
 .section-features {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -110,19 +116,44 @@ ul {
   color: var(--title-text-color);
 }
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
-/* Address footer-------------------------------------------- */
+/* P-O-R-T-F-O-L-I-O */
+/* Filter buttton portfolio*/
+.site-nav .button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+.site-nav .button-filter:hover,
+.site-nav .button-filter:focus {
+  font-family: inherit;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+/* Projects section portfolio */
+.project {
+  font-size: 16px;
+  line-height: 1.87px;
+  color: var(--primary-text-color);
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+/* Footer-------------------------------------------- */
 .auth-nav .address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
 .auth-nav .link-address {
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
