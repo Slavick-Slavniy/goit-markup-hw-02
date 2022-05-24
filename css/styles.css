@@ -129,14 +129,15 @@ a {
 /* P-O-R-T-F-O-L-I-O */
 /* Filter buttton portfolio*/
 .site-nav .button-filter {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .site-nav .button-filter:hover,
 .site-nav .button-filter:focus {
-  font-family: inherit;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
