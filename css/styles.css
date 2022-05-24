@@ -10,16 +10,17 @@
 
 :root {
   --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primery-background-color: #e5e5e5;
   --secondary-text-color: #ffffff;
+  --title-text-color: #212121;
+  --primery-background-color: #e5e5e5;
+  --secondary-backgroud-color: #2f303a;
+  --accent-color: #2196f3;
 }
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: var(--primery-background-color);
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
@@ -71,6 +72,9 @@ a {
 }
 /* W-E-B-S-T-U-D-I-O */
 /* Section hero */
+.section-hero {
+  background-color: var(--secondary-backgroud-color);
+}
 .section-title-hero {
   font-weight: 900;
   font-size: 44px;
@@ -80,8 +84,11 @@ a {
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
-.section .button-hero {
-  font-family: inherit;
+.section-hero .button-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
   cursor: pointer;
@@ -147,7 +154,11 @@ a {
   color: var(--title-text-color);
 }
 /* Footer-------------------------------------------- */
+.footer {
+  background-color: var(--secondary-backgroud-color);
+}
 .auth-nav .address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
